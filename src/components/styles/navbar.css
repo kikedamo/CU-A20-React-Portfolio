@@ -1,0 +1,25 @@
+.WholeNavBar{
+    margin:0;
+    padding: 0%;
+    background-color: #29BF12;
+}
+
+.NavbarGrid{
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavbarTitle{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.NavbarBtn{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
