@@ -3,6 +3,10 @@
     src: url(../../fonts/LeagueGothic-Regular.otf) format('opentype');
 }
 
+a{
+    text-decoration: none;
+}
+
 .WholePort{
     background-color: #DEFFDA;
     padding: 20px;
@@ -15,4 +19,56 @@
     font-family: "Gothic";
     text-align: center;
     font-size: 50px;
+}
+
+.Portfolio{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.card{
+    margin: 20px;
+    border: none;
+    border-radius: 50px;
+    width: 350px;
+    height: 350px;
+    background-color: #FAF8F1;
+    transition: box-shadow 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,1);
+    transform: translateY(-2px);
+}
+
+
+
+.MusicImg{
+    width: 350px;
+    height: 200px;
+    border-radius: 50px 50px 0 0 ;
+    object-fit: cover;
+}
+
+.CardDesc{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: "Gothic";
+    font-size: 30px;
+}
+
+.CardVid{
+    width: 350px;
+    height: 200px;
+    margin-top: -10px;
+    border-radius: 50px 50px 0 0 ;
+}
+
+.SCImg{
+    width:150px;
+    margin-top: 20px;
+    padding-left: 100px;
 }
