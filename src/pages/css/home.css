@@ -4,7 +4,7 @@
 }
 
 .WholeHome{
-    background-color: #DEFFDA;
+    background: linear-gradient(rgba(222, 255, 218, 0.9), rgba(222, 255, 218, 0.9)), url("../../img/Drip_Logo_Pattern.jpg");
     padding: 20px;
     display: flex;
     flex-direction: column;

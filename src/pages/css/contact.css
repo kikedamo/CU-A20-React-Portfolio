@@ -4,12 +4,18 @@
 }
 
 .wholeContact{
+    background: linear-gradient(rgba(222, 255, 218, 0.9), rgba(222, 255, 218, 0.9)), url("../../img/Drip_Logo_Pattern.jpg");
     background-color: #DEFFDA;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+/* .BGPattern{
+    position: relative;
+} */
+
 
 .ContactTitle{
     font-family: "Gothic";
