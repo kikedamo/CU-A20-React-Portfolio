@@ -64,3 +64,48 @@
     background-color: #FAF8F1;
     color:#091E05;
 }
+
+.SocialTitle{
+    font-family: "Gothic";
+    text-align: center;
+    font-size: 50px;
+}
+
+.SocialLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.FBLogo{
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.FBLogo:hover{
+    transform: translateY(-2px);
+}
+
+.IGLogo{
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.IGLogo:hover{
+    transform: translateY(-2px);
+}
+
+@media only screen and (min-width: 900px){
+    .InputArea{
+        border: none;
+        padding: 10px;
+        padding-left: 150px;
+        padding-right: 150px;
+        border-radius: 50px;
+        background: linear-gradient(rgba(102, 238, 81, 0.9), rgba(41, 191, 18, 0.9)), url("../../img/Drip_Logo_Pattern.jpg");
+        box-shadow: 0 5px 15px rgba(0,0,0,1);
+    }
+    .InputArea input{
+        width: 500px;
+    }
+}

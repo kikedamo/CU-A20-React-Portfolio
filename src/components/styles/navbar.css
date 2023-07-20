@@ -24,6 +24,10 @@
     color:#FAF8F1;
 }
 
+.MainLogo{
+    width: 0px;
+}
+
 .NavbarTitle:hover{
     color: #8a8a8a;
 }
@@ -37,4 +41,36 @@
 
 .NavbarBtn:hover{
     color:#FAF8F1;
+}
+
+@media only screen and (min-width: 900px){
+    .NavbarGrid{
+        padding: 20px;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .NavbarTitle{
+        display: flex;
+        font-size: 40px;
+        padding-right: 170px;
+    }
+
+    .MainLogo{
+        width: 30px;
+        height: 100%;
+        padding-right: 10px;
+    }
+
+    .NavbarBtn{
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .NavbarBtn:hover{
+        background-color: #29BF12;
+        color:#FAF8F1;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }

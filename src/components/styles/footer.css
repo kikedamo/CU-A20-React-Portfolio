@@ -25,6 +25,10 @@
     color:#FAF8F1;
 }
 
+.FooterLogo{
+    width: 0px;
+}
+
 .FooterTitle:hover{
     color: #8a8a8a;
 }
@@ -45,4 +49,37 @@
 
 .FooterBtn:hover{
     color:#FAF8F1;
+}
+
+@media only screen and (min-width: 900px){
+    .FooterGrid{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .FooterTitle{
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .FooterLogo{
+        width:50px;
+        padding-right: 10px;
+    }
+    .FooterSecondaryGrid{
+        padding: 20px;
+        border-left: #FAF8F1 solid;
+    }
+
+    .FooterBtn{
+        padding: 10px;
+    }
+
+    .FooterBtn:hover{
+        background-color: #29BF12;
+        color:#FAF8F1;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }

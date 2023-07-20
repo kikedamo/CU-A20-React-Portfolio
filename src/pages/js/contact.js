@@ -1,6 +1,7 @@
 import React from 'react';
 import "../css/contact.css"
-// import BGImage from "../../img/Drip_Logo_Pattern.jpg"
+import Facebook from "../../img/fb.svg"
+import Instagram from "../../img/ig.svg"
 
 export default function contact(){
     return(
@@ -19,6 +20,19 @@ export default function contact(){
                 <button type="submit" className="InputBtn">
                     Submit
                 </button>
+            </div>
+            <div className="Socials">
+                <h2 className="SocialTitle">
+                    My Socials
+                </h2>
+                <div  className="SocialLinks">
+                    <a href="https://facebook.com/Cedrick038/" className="SocialFB">
+                        <img src={Facebook} alt="Facebook Logo" className="FBLogo"/>
+                    </a>
+                    <a href="https://www.instagram.com/imdaviscedrick/" className="SocialIG">
+                        <img src={Instagram} alt="Instagram Logo" className="IGLogo"/>
+                    </a>
+                </div>
             </div>
         </div>
     )
