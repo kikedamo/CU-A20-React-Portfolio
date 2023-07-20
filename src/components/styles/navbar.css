@@ -1,7 +1,12 @@
+@font-face {
+    font-family: "Horizon";
+    src: url(../../fonts/horizon.otf) format('opentype');
+}
+
 .WholeNavBar{
     margin:0;
     padding: 0%;
-    background-color: #29BF12;
+    background-color: #091E05;
 }
 
 .NavbarGrid{
@@ -13,13 +18,23 @@
 }
 
 .NavbarTitle{
-    font-size: 40px;
+    font-family: "Horizon";
+    font-size: 20px;
     text-decoration: none;
-    color: black;
+    color:#FAF8F1;
+}
+
+.NavbarTitle:hover{
+    color: #8a8a8a;
 }
 
 .NavbarBtn{
+    font-family: "Horizon";
     font-size: 40px;
     text-decoration: none;
-    color: black;
+    color: #29BF12;
+}
+
+.NavbarBtn:hover{
+    color:#FAF8F1;
 }

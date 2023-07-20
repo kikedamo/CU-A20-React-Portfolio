@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Gothic";
+    src: url(../../fonts/LeagueGothic-Regular.otf) format('opentype');
+}
+
+.wholeContact{
+    background-color: #DEFFDA;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContactTitle{
+    font-family: "Gothic";
+    text-align: center;
+    font-size: 50px;
+}
+
+.InputArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.InputArea input{
+    margin: 20px;
+    font-size: 30px;
+}
+
+.InputArea div{
+    font-family: "Gothic";
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.InputArea textarea{
+    margin: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    height: 90px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.InputBtn{
+    margin: 20px;
+    border: none;
+    border-radius: 20px;
+    font-family: "Gothic";
+    font-size: 50px;
+    background-color: #091E05;
+    color:#FAF8F1;
+}
+
+.InputBtn:hover{
+    background-color: #FAF8F1;
+    color:#091E05;
+}

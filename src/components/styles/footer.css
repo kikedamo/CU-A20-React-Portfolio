@@ -1,7 +1,13 @@
+@font-face {
+    font-family: "Horizon";
+    src: url(../../fonts/horizon.otf) format('opentype');
+}
+
+
 .WholeFooter{
     margin:0;
     padding: 0%;
-    background-color: #29BF12;
+    background-color: #091E05;
 }
 
 .FooterGrid{
@@ -13,9 +19,14 @@
 }
 
 .FooterTitle{
-    font-size: 40px;
+    font-family: "Horizon";
+    font-size: 20px;
     text-decoration: none;
-    color: black;
+    color:#FAF8F1;
+}
+
+.FooterTitle:hover{
+    color: #8a8a8a;
 }
 
 .FooterSecondaryGrid{
@@ -26,7 +37,12 @@
 }
 
 .FooterBtn{
+    font-family: "Horizon";
     font-size: 40px;
     text-decoration: none;
-    color: black;
+    color: #29BF12;
+}
+
+.FooterBtn:hover{
+    color:#FAF8F1;
 }

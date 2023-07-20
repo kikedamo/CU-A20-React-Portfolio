@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Gothic";
+    src: url(../../fonts/LeagueGothic-Regular.otf) format('opentype');
+}
+
+.WholeHome{
+    background-color: #DEFFDA;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HomeTitle{
+    font-family: "Gothic";
+    text-align: center;
+    font-size: 50px;
+}
+
+.ProfileImg{
+    width: 300px;
+    align-items: center;
+    border: none;
+    border-radius:50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.HomeDesc{
+    font-family: "Gothic";
+    font-size: 30px;
+}
